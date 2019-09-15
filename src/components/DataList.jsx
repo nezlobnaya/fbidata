@@ -1,16 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import SearchForm from './SearchForm';
 
 function DataList() {
     return (
         <div>
             <h1>FBI Data</h1>
             <button>
-            <Link to={`/${DataList}`}>
+            <Link to='/'>
                 Home
             </Link>
-            <Link to={`/search/${SearchForm}`}>
+            </button>
+            <button>
+            <Link to='/search/'>
              Search Data
            </Link>
            </button>

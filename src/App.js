@@ -8,8 +8,8 @@ function App(props) {
   console.log(props);
   return (
     <div className="App">
-      <Route path='/' component={DataList} />
-      <Route path='/search' render={props => <SearchForm />} />
+      <Route exact path='/' component={DataList} />
+      <Route path='/search/' component={SearchForm} />
 
     </div>
   );
