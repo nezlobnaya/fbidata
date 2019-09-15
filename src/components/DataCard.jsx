@@ -8,4 +8,4 @@ function DataCard() {
     )
 }
 
-export default DataCard
+export default DataCard;
